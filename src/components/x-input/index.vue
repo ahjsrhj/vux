@@ -277,7 +277,7 @@ export default {
   computed: {
     labelStyles () {
       return {
-        width: this.labelWidthComputed || this.$parent.labelWidth || this.labelWidthComputed,
+        width: this.labelWidth || this.$parent.labelWidth || this.labelWidthComputed,
         textAlign: this.$parent.labelAlign,
         marginRight: this.$parent.labelMarginRight
       }
